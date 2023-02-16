@@ -28,7 +28,6 @@ body {
 .logo-item {
 	color: var(--color-main-text);
 }
-
 .menu-item {
 	font-weight: 500;
 	font-size: 16px;
@@ -36,10 +35,6 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--color-background-grey);
 	text-decoration: none;
-}
-.menu-item:hover,
-.menu-item:focus {
-	color: var(--color-blue);
 }
 .menu-item:hover,
 .menu-item:focus {
@@ -58,10 +53,6 @@ body {
 }
 .address-item:hover,
 .address-item:focus {
-	color: var(--color-blue);
-}
-.address-item:focus,
-.address-item:hover {
 	color: var(--color-blue);
 }
 .first-section {
@@ -84,6 +75,7 @@ body {
 	color: var(--color-white);
 	cursor: pointer;
 	text-align: center;
+	font-family: Roboto, sans-serif;
 }
 .main-button:hover,
 .main-button:focus {
@@ -105,6 +97,9 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	text-align: left;
+	text-decoration: none;
+	font-style: normal;
+	color: var(--color-main-text);
 }
 .work-team {
 	background-color: var(--color-button-portfolio);
@@ -142,9 +137,13 @@ body {
 	letter-spacing: 0.04em;
 	color: var(--color-button);
 	cursor: pointer;
+	font-family: Roboto, sans-serif;
 }
 .button-item:hover,
 .button-item:focus {
 	background-color: var(--color-blue);
 	color: var(--color-white);
+}
+.list-item {
+	text-decoration: none;
 }
